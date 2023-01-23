@@ -146,7 +146,7 @@ ul li a {
 .aboutme {
     font-family: 'PP Neue Montreal';
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     line-height: 206.4%;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -165,20 +165,20 @@ ul li a {
     /* background: red; */
     top: 80rem;
     display: grid;
-     grid-template-columns: repeat(12, 1fr);
+     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: 1fr 3fr 1fr 3fr 1fr 3fr;
     column-gap: 1.25rem;
     /* border: 2px solid blue; */
     width: 100%;
-    max-width: 1440px;
-    padding: 0 2.5rem;
+    /* max-width: 1440px; */
+    /* padding: 0 2.5rem; */
 }
 
 .selected {
     grid-area: 1 / 1 / span 1/ span 12;
     color:#FFFFFF;
     font-family: 'PP Neue Montreal';
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight:200;
     text-transform: uppercase;
   
@@ -199,7 +199,7 @@ ul li a {
 }
 
 .work_2_wrap {
-    grid-area: 4 / 1 / span 2 / span 10;
+    grid-area: 4 / 3 / span 2 / span 12;
     background-image: url("project2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -207,7 +207,7 @@ ul li a {
 }
 
 .work_2 {
-    grid-area: 4 / 6 / span 1 / span 7;
+    grid-area: 4 / 7 / span 1 / span 12;
 }
 
 .work_3_wrap {
@@ -233,25 +233,25 @@ ul li a {
     padding: 0.15rem;
     border-radius: 0.3125rem;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-right: 0.625rem;
     /* background: green; */
 }
 
 .projectname {
-    font-size: 6rem;
+    font-size: 2rem;
     text-transform: uppercase;
     text-align:left;
      /* background: yellow;  */
     width:fit-content;
-    line-height: 10rem;
+    line-height: 6rem;
     /* max-height:600px; */
 }
 
 .description {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .link {
-    font-size: 2rem;
+    font-size: 1rem;
 }
